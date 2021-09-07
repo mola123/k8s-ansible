@@ -18,6 +18,7 @@
 ### Create User To Install Ansible & Terraform
 ``` sh
  sudo useradd ansible
+ sudo hostname ansible
  echo "ansible  ALL=(ALL) NOPASSWD:ALL" | sudo tee /etc/sudoers.d/ansible
  sudo su ansible
 ```
